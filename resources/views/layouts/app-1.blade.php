@@ -18,12 +18,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/ahtpedigree.css') }}" rel="stylesheet">
-    @stack('after-styles')
 </head>
 <body>
 <div id="app">
-    <nav class="navbar navbar-custom navbar-expand-md">
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
                 {{ config('app.name', 'Laravel') }}
@@ -72,26 +70,17 @@
                                 </form>
                             </div>
                         </li>
-                        @can('Access Backend')
-                            <li class="nav-item">
-                                <a class="nav-link" href="/backend">Admin</a>
-                            </li>
-                        @endcan
+
                     @endguest
+
                 </ul>
             </div>
         </div>
     </nav>
 
     <main class="py-4">
-        <div class="container">
-            @include('partials.messages')
-            @yield('content')
-        </div>
+        @yield('content')
     </main>
 </div>
-
-@stack('after-scripts')
-
 </body>
 </html>
