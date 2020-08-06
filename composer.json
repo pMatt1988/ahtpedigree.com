@@ -20,6 +20,7 @@
         "ext-json": "*",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^6.5",
+        "igaster/laravel-theme": "^2.0",
         "intervention/image": "^2.5",
         "jeroennoten/laravel-adminlte": "^3.0",
         "laravel/framework": "^6.2",
@@ -45,7 +46,7 @@
 
         "config": {
             "github-oauth": {
-                "github.com": "426a7a5b660a1f13a382eb18bbf327f8e017b034"
+                "github.com": "7c44bbc8383d48fa17f32e99996744a8e5879681"
             }
         }
 

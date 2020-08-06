@@ -51,7 +51,7 @@ return [
 
     'layout_topnav' => null,
     'layout_boxed' => null,
-    'layout_fixed_sidebar' => true,
+    'layout_fixed_sidebar' => false,
     'layout_fixed_navbar' => null,
     'layout_fixed_footer' => null,
 
@@ -92,11 +92,11 @@ return [
 
     'sidebar_mini' => false,
     'sidebar_collapse' => false,
-    'sidebar_collapse_auto_size' => false,
+    'sidebar_collapse_auto_size' => 0,
     'sidebar_collapse_remember' => false,
     'sidebar_collapse_remember_no_transition' => true,
     'sidebar_scrollbar_theme' => 'os-theme-light',
-    'sidebar_scrollbar_auto_hide' => 'l',
+    'sidebar_scrollbar_auto_hide' => false,
     'sidebar_nav_accordion' => false,
     'sidebar_nav_animation_speed' => 300,
 
@@ -281,7 +281,6 @@ return [
         JeroenNoten\LaravelAdminLte\Menu\Filters\HrefFilter::class,
         JeroenNoten\LaravelAdminLte\Menu\Filters\SearchFilter::class,
         JeroenNoten\LaravelAdminLte\Menu\Filters\ActiveFilter::class,
-        JeroenNoten\LaravelAdminLte\Menu\Filters\SubmenuFilter::class,
         JeroenNoten\LaravelAdminLte\Menu\Filters\ClassesFilter::class,
         JeroenNoten\LaravelAdminLte\Menu\Filters\GateFilter::class,
         JeroenNoten\LaravelAdminLte\Menu\Filters\LangFilter::class,
