@@ -1,5 +1,5 @@
 <?php
-Route::get('/', [AdminController::class, 'index']);
+Route::get('/', "AdminController@index");
 
 /**
  * Edit USERS
