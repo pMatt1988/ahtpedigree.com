@@ -1,0 +1,69 @@
+body {
+    background-color: #E2C395;  
+    color: #452709;
+}
+.navbar-custom {
+    background: #452709 !important;
+}
+
+.navbar-custom .dropdown-menu {
+    background-color: #452709;
+}
+
+.navbar-custom a:hover {
+    color: white;
+}
+.navbar-custom a {
+    color: #E2C395;
+}
+.navbar-custom .navbar-toggler .navbar-toggler-icon {
+    color: #E2C395;
+}
+
+nav a  {
+    color: #E2C395;
+}
+nav .dropdown-item:focus, nav .dropdown-item:hover {
+    background-color: transparent;
+}
+.card {
+    background: #E2C395;
+}
+
+
+
+.table thead th {
+    border-color: #452709;
+    border-width: 1px;
+}
+
+.table input {
+    background-color: #DBD2C7;
+    border: 0;
+    
+}
+
+.table th a{
+    color: #452709;
+}
+.table th a:hover {
+    color: #DBD2C7;
+}
+
+.table thead th a.text-success {
+    color: #DBD2C7 !important;
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {  
+    border:solid 2px #452709;
+    box-shadow: none;
+    background-color: white;
+}
+input:hover {
+    border:solid 2px #452709;
+}
+
+.table th, .table td {
+    border-color: #452709;
+}
+

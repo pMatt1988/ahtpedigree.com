@@ -173,6 +173,10 @@ class DogController extends Controller
         return view('dog.create', compact('method', 'dog'));
     }
 
+    public function TestBackend()
+    {
+        return view('backend.index');
+    }
 
     /**
      * Store a newly created resource in storage.

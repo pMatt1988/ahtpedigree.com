@@ -1,7 +1,5 @@
-@extends('adminlte::page');
+@extends('adminlte::page')
 
 @section('content')
-    <div class="container">
-        {!! $grid !!}
-    </div>
+    {!! $grid !!}
 @endsection

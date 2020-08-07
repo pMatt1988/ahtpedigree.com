@@ -20,6 +20,7 @@
         "ext-json": "*",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^6.5",
+        "igaster/laravel-theme": "^2.0",
         "intervention/image": "^2.5",
         "jeroennoten/laravel-adminlte": "^3.0",
         "laravel/framework": "^6.2",

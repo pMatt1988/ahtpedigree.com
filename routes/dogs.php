@@ -6,6 +6,7 @@ use App\Http\Controllers\PedigreeController;
 use Illuminate\Database\Query\Builder;
 
 Route::get('/', [DogController::class, 'index'])->name('dogindex');
+Route::get('test-backend', [DogController::class, 'TestBackend']);
 Route::get('create', [DogController::class, 'create'])->name('dogcreate')->middleware(['auth', 'permission:Create Dog']);
 
 Route::get('{id}', [DogController::class, 'show'])->name('dogshow');
@@ -18,6 +19,7 @@ Route::get('{id}/delete', 'DogController@destroy')->middleware(['auth', 'permiss
 
 
 Route::get('{id}/pedigree/{nGens}', [PedigreeController::class, 'show']);
+
 
 Route::get('testmate', [PedigreeController::class, 'testmate']);
 Route::get('testmate/show', [PedigreeController::class, 'showtestmate']);
