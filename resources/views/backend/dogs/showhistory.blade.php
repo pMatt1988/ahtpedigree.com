@@ -1,5 +1,5 @@
 {{--TODO style show history--}}
-@extends('adminlte::page')
+@extends('backend.layouts.app')
 
 @section('content')
     <div class="container">
