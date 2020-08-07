@@ -41,6 +41,10 @@ class AdminController extends Controller
 
     }
 
+    function index() {
+        return view('backend.index');
+    }
+
     function showdog($id)
     {
         $dog = Dog::with('parents')->find($id);

@@ -1,8 +1,5 @@
 <?php
-Route::get('/', function() {
-   return view('backend.index');
-});
-
+Route::get('/', [AdminController::class, 'index']);
 
 /**
  * Edit USERS
@@ -18,6 +15,4 @@ Route::get('dogs/history/{id}', 'AdminController@showhistory');
 Route::get('dogs/history/{id}/delete', 'AdminController@deletehistory');
 Route::get('dogs/history/{id}/restore', 'AdminController@restorehistory');
 
-Route::get('test', function() {
-    return redirect('backend')->with('success', 'Test was a Success!');
-});
+
