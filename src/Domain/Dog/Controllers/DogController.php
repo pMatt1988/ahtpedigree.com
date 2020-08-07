@@ -178,6 +178,11 @@ class DogController extends Controller
         return view('backend.index');
     }
 
+    public function Redirect() {
+        return redirect('dogs');
+
+    }
+
     /**
      * Store a newly created resource in storage.
      *

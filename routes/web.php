@@ -26,9 +26,7 @@ use Nayjest\Grids\GridConfig;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
 
-Route::get('/', function () {
-    return redirect('dogs');
-});
+Route::get('/', [DogController::class, 'Redirect']);
 
 
 /**
